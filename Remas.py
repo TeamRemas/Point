@@ -79,7 +79,7 @@ async def join_channel(event):
 @Remas1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await Remas1(JoinChannelRequest("@saythonh"))
+        await Remas1(JoinChannelRequest("@PMPPP"))
     except BaseException:
         pass
         
@@ -170,7 +170,7 @@ async def _(event):
 async def _(event):
     await event.reply("**جاري تجميع النقاط**")
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await Remas1(JoinChannelRequest('saythonh'))
+    joinu = await Remas1(JoinChannelRequest('P_P_9'))
     channel_entity = await Remas1.get_entity(bot_username)
     await Remas1.send_message(bot_username, '/start')
     await asyncio.sleep(4)
