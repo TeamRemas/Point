@@ -66,7 +66,7 @@ async def handler(event):
 @bot.on(events.NewMessage)
 async def handler(event):
     if event.sender_id == OWNER_IDDD:
-        owner_message = f"Hello, Hussam Remas ! My Owner ID is: {DEVLOO}"
+        owner_message = f"Hello, Hussam Trex ! My Owner ID is: {DEVLOO}"
         await event.respond(owner_message)
         
 @Remas1.on(events.NewMessage)
@@ -133,7 +133,7 @@ async def OwnerStart(event):
 @Remas1.on(events.NewMessage(outgoing=True, pattern=".الاوامر"))
 async def _(event):
       await event.edit("""**
-      T𝖾p𝗍𝗁𝗈𝗇 - P𝗈𝗂𝗇𝗍  
+      𝗧𝗥𝗘𝗫 - P𝗈𝗂𝗇𝗍  
 ⎆ أوامـر حسـاب المـستخدم  
 
 • بوت تمويل المليار  - `.تجميع المليار`
@@ -155,15 +155,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗥𝗘𝗠𝗔𝗦 ⌯──╮
+╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗧𝗥𝗘𝗫 ⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗥𝗘𝗠𝗔𝗦    ※
+※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗧𝗥𝗘𝗫    ※
 
 ※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟬 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
 
 ※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - Ayham  ※
 
-╰───⌯𝗥𝗘𝗠𝗔𝗦 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯𝗧𝗥𝗘𝗫 𝗣𝗢𝗜𝗡𝗧⌯───╯
 ''')
 
 @Remas1.on(events.NewMessage(outgoing=False, pattern='/point1'))
@@ -726,7 +726,7 @@ async def OwnerStart(event):
         
 
 
-print("Remas Source Point Is Running ✅")
+print("Trex Source Point Is Running ✅")
 Remas1.run_until_disconnected()
 
 
